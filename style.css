@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:10PX;
+    
+}
+body{
+     font-family: Arial, sans-serif;
+    width:210mm;
+    height:300mm;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    border:3px solid grey;
+    
+}
+.frist{
+    height:100%;
+    width:350px;
+    border-RIGHT:3px solid black;
+}
+.line{
+    padding:2px;
+    border-bottom:2px solid black;
+}
+.image{
+    padding: 30px;
+    align-items:center;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+ul{
+    padding:0;
+
+}
+li{
+    padding: 3px;
+     margin-bottom: 5px;
+}
+h1{
+    font-size: 38px;
+    color: rgb(39, 41, 218);
+    text-align: center;
+}
+.second{
+    padding: 40px;
+}
+.objective{
+    padding: 10px;
+     font-size: 15px;
+}
