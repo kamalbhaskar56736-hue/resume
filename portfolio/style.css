@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav-logo{
+    color:blue;
+}
+.navbar{
+    display:flex;
+    padding:10px;
+    align-items:center;
+    background:rgba(21, 4, 4, 0.938);
+    height:40px;
+    
+
+}
+ul{
+      display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-left: auto;
+}
+
+a{
+ list-style: none;
+ text-decoration:none;
+}
+a:hover{
+   color:red;
+}
+
+.container{
+    height: 650px;
+    background-color: rgb(235, 9, 190);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container h1{
+    
+    font-size: 55px;
+    color: white;
+     text-shadow: 2px 2px 5px black;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container h1{
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.photo{
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+     box-shadow: 0px 5px 20px rgba(11, 11, 232, 0.4);
+}
+button{
+    font-size: 25px;
+    background: yellow;
+    border: none;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: green;
+    color: white;
+    transform: scale(1.05);
+}
+
+@media (max-width: 450px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .photo{
+        width: 250px;
+        height: 350px;
+    }
+
+    .container h1{
+        font-size: 40px;
+    }
+}

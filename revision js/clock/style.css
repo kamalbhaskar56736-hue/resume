@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    height: 700px;
+    width:100%;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+.box{
+   display:flex;
+   gap:30px;
+   height:200px;
+  width: 400px;
+  justify-content:center;
+ align-items:center;
+  text-align:center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  font-size:50px;
+  border-radius:10px
+}
+
+#date{
+    display:flex;
+   height:200px;
+  width: 400px;
+  background:linear-gradient(0.25turn, #04f22f, #efefee49, #f63c3cc6);
+  text-align:center;
+  justify-content:center;
+ align-items:center;
+  font-size:40px;
+  gap:30px;
+}
+
