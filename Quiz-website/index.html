@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz app</title>
+</head>
+<body>
+    <header >
+        <nav class="navbar">
+           <h2 class="nav-logo">Quiz</h2>
+           <ul >
+            <li ><a href="#" >Home</a></li>
+            <li ><a href="#" >About</a></li>
+            <li ><a href="#" >Contacts</a></li>
+           </ul>
+        </nav>
+
+    </header>
+    <section class="container">
+       <h2>Quiz Website</h2>
+       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Est at illum distinctio quo blanditiis ea non ad quis ratione. <br>Harum quibusdam quasi natus! Repellendus,<br> optio temporibus illo hic eum accusantium?  </p>
+       <button onclick="startquiz()">Start Quiz</button>
+</section>
+<section class="quiz-page" id="quizPage" style="display:none;">
+    <h2 id="totalquestion"></h2>
+     <h3 id="timer">Time Left : 60s</h3>
+    <h3 id="question"></h3>
+    <button  class="option"></button>
+    <button class="option"></button>
+    <button class="option"></button>
+    <button class="option"></button>
+
+    <br><br>
+
+    <button id="next" onclick="nextQuestion()">Next</button>
+</section>
+
+<section class="result-page" id="resultpage" style="display:none;">
+    <div class="result">
+        <h1>Quiz Finished</h1>
+        <h2 id="totalscore"></h2>
+        <div class="btn">
+        <button id="reload" onclick="location.reload()">Restart Quiz</button>
+        <button id="leave">Leave</button>
+    </div>
+        </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>

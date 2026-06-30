@@ -21,3 +21,16 @@ console.log(gender)
 
 let fristname;
 console.log(fristname)
+
+const operator = "@#$&";
+
+let index = Math.floor(Math.random() * operator.length);
+
+let symbol = operator[index];
+
+if (symbol === "$") {
+    console.log(symbol + " gauss number!");
+}
+else {
+    console.log(symbol);
+}
